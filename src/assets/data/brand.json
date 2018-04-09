@@ -1,0 +1,423 @@
+{
+    "result": [
+        {
+            "unUsedBrands": [
+                {
+                    "id": 354,
+                    "brandChi": "东芝",
+                    "brandEng": "Toshiba ",
+                    "brandName": "东芝",
+                    "brandOther": ""
+                },
+                {
+                    "id": 327,
+                    "brandChi": "乐普医疗",
+                    "brandEng": "Lepu Medical",
+                    "brandName": "乐普医疗",
+                    "brandOther": ""
+                },
+                {
+                    "id": 457,
+                    "brandChi": "南京杰雄",
+                    "brandEng": "JM",
+                    "brandName": "南京杰雄",
+                    "brandOther": "中美杰雄"
+                },
+                {
+                    "id": 491,
+                    "brandChi": "普朗",
+                    "brandEng": "Perlong",
+                    "brandName": "普朗",
+                    "brandOther": ""
+                },
+                {
+                    "id": 502,
+                    "brandChi": "奇目",
+                    "brandEng": "Ziehm imaging",
+                    "brandName": "奇目",
+                    "brandOther": ""
+                },
+                {
+                    "id": 510,
+                    "brandChi": "日立",
+                    "brandEng": "Hitachi",
+                    "brandName": "日立",
+                    "brandOther": "株式会社日立制作所"
+                },
+                {
+                    "id": 511,
+                    "brandChi": "锐珂",
+                    "brandEng": "Carestream",
+                    "brandName": "锐珂",
+                    "brandOther": "Carestream Health"
+                },
+                {
+                    "id": 550,
+                    "brandChi": "上海中科",
+                    "brandEng": "China science",
+                    "brandName": "上海中科",
+                    "brandOther": ""
+                },
+                {
+                    "id": 637,
+                    "brandChi": "万东",
+                    "brandEng": "Wandong",
+                    "brandName": "万东",
+                    "brandOther": "华润万东"
+                },
+                {
+                    "id": 655,
+                    "brandChi": "西安集智",
+                    "brandEng": "Jizhi Medical",
+                    "brandName": "西安集智",
+                    "brandOther": "集智医疗"
+                },
+                {
+                    "id": 659,
+                    "brandChi": "西南医疗",
+                    "brandEng": "Southwest medical",
+                    "brandName": "西南医疗",
+                    "brandOther": ""
+                },
+                {
+                    "id": 570,
+                    "brandChi": "蓝港数字",
+                    "brandEng": "Landcom",
+                    "brandName": "蓝港数字",
+                    "brandOther": ""
+                },
+                {
+                    "id": 497,
+                    "brandChi": "卡普",
+                    "brandEng": "Kemp",
+                    "brandName": "卡普",
+                    "brandOther": ""
+                },
+                {
+                    "id": 50,
+                    "brandChi": "",
+                    "brandEng": "",
+                    "brandName": "Euroampli Alien",
+                    "brandOther": ""
+                },
+                {
+                    "id": 111,
+                    "brandChi": "",
+                    "brandEng": "IMD",
+                    "brandName": "IMD",
+                    "brandOther": ""
+                },
+                {
+                    "id": 287,
+                    "brandChi": "百腾",
+                    "brandEng": "BAITENG MED",
+                    "brandName": "百腾",
+                    "brandOther": "百腾"
+                },
+                {
+                    "id": 309,
+                    "brandChi": "博宇",
+                    "brandEng": "Boyu",
+                    "brandName": "博宇",
+                    "brandOther": "博宇医疗"
+                },
+                {
+                    "id": 313,
+                    "brandChi": "常熟市医疗器械厂",
+                    "brandEng": "",
+                    "brandName": "常熟市医疗器械厂",
+                    "brandOther": "无"
+                },
+                {
+                    "id": 320,
+                    "brandChi": "驰马特",
+                    "brandEng": "Smart",
+                    "brandName": "驰马特",
+                    "brandOther": ""
+                },
+                {
+                    "id": 334,
+                    "brandChi": "德海尔",
+                    "brandEng": "DHRM",
+                    "brandName": "德海尔",
+                    "brandOther": ""
+                },
+                {
+                    "id": 409,
+                    "brandChi": "虎丘",
+                    "brandEng": "Huqiu/Hu.q",
+                    "brandName": "虎丘",
+                    "brandOther": "苏州虎丘照相器材厂"
+                },
+                {
+                    "id": 410,
+                    "brandChi": "华东电子",
+                    "brandEng": "Huadong",
+                    "brandName": "华东电子",
+                    "brandOther": "华东电子管厂"
+                },
+                {
+                    "id": 442,
+                    "brandChi": "惠尔",
+                    "brandEng": "Whale",
+                    "brandName": "惠尔",
+                    "brandOther": ""
+                },
+                {
+                    "id": 665,
+                    "brandChi": "新华医疗",
+                    "brandEng": "SHANDONG XINHUA MEDICAL INSTRUMENT CO.,LTD",
+                    "brandName": "新华医疗",
+                    "brandOther": ""
+                }
+            ],
+            "allBrands": [
+                {
+                    "id": 359,
+                    "brandChi": "飞利浦",
+                    "brandEng": "Philips",
+                    "brandName": "飞利浦",
+                    "brandOther": ""
+                },
+                {
+                    "id": 657,
+                    "brandChi": "西门子",
+                    "brandEng": "Siemens",
+                    "brandName": "西门子",
+                    "brandOther": ""
+                },
+                {
+                    "id": 51,
+                    "brandChi": "通用电气",
+                    "brandEng": "GE",
+                    "brandName": "GE",
+                    "brandOther": "GE|GE_healthcare"
+                },
+                {
+                    "id": 461,
+                    "brandChi": "佳能",
+                    "brandEng": "Canon",
+                    "brandName": "佳能",
+                    "brandOther": "Electronic Optical System"
+                },
+                {
+                    "id": 329,
+                    "brandChi": "岛津",
+                    "brandEng": "SHIMADZU ",
+                    "brandName": "岛津",
+                    "brandOther": ""
+                },
+                {
+                    "id": 457,
+                    "brandChi": "南京杰雄",
+                    "brandEng": "JM",
+                    "brandName": "南京杰雄",
+                    "brandOther": "中美杰雄"
+                },
+                {
+                    "id": 491,
+                    "brandChi": "普朗",
+                    "brandEng": "Perlong",
+                    "brandName": "普朗",
+                    "brandOther": ""
+                },
+                {
+                    "id": 502,
+                    "brandChi": "奇目",
+                    "brandEng": "Ziehm imaging",
+                    "brandName": "奇目",
+                    "brandOther": ""
+                },
+                {
+                    "id": 510,
+                    "brandChi": "日立",
+                    "brandEng": "Hitachi",
+                    "brandName": "日立",
+                    "brandOther": "株式会社日立制作所"
+                },
+                {
+                    "id": 511,
+                    "brandChi": "锐珂",
+                    "brandEng": "Carestream",
+                    "brandName": "锐珂",
+                    "brandOther": "Carestream Health"
+                },
+                {
+                    "id": 550,
+                    "brandChi": "上海中科",
+                    "brandEng": "China science",
+                    "brandName": "上海中科",
+                    "brandOther": ""
+                },
+                {
+                    "id": 637,
+                    "brandChi": "万东",
+                    "brandEng": "Wandong",
+                    "brandName": "万东",
+                    "brandOther": "华润万东"
+                },
+                {
+                    "id": 655,
+                    "brandChi": "西安集智",
+                    "brandEng": "Jizhi Medical",
+                    "brandName": "西安集智",
+                    "brandOther": "集智医疗"
+                },
+                {
+                    "id": 659,
+                    "brandChi": "西南医疗",
+                    "brandEng": "Southwest medical",
+                    "brandName": "西南医疗",
+                    "brandOther": ""
+                },
+                {
+                    "id": 665,
+                    "brandChi": "新华医疗",
+                    "brandEng": "SHANDONG XINHUA MEDICAL INSTRUMENT CO.,LTD",
+                    "brandName": "新华医疗",
+                    "brandOther": ""
+                },
+                {
+                    "id": 327,
+                    "brandChi": "乐普医疗",
+                    "brandEng": "Lepu Medical",
+                    "brandName": "乐普医疗",
+                    "brandOther": ""
+                },
+                {
+                    "id": 570,
+                    "brandChi": "蓝港数字",
+                    "brandEng": "Landcom",
+                    "brandName": "蓝港数字",
+                    "brandOther": ""
+                },
+                {
+                    "id": 497,
+                    "brandChi": "卡普",
+                    "brandEng": "Kemp",
+                    "brandName": "卡普",
+                    "brandOther": ""
+                },
+                {
+                    "id": 50,
+                    "brandChi": "",
+                    "brandEng": "",
+                    "brandName": "Euroampli Alien",
+                    "brandOther": ""
+                },
+                {
+                    "id": 111,
+                    "brandChi": "",
+                    "brandEng": "IMD",
+                    "brandName": "IMD",
+                    "brandOther": ""
+                },
+                {
+                    "id": 287,
+                    "brandChi": "百腾",
+                    "brandEng": "BAITENG MED",
+                    "brandName": "百腾",
+                    "brandOther": "百腾"
+                },
+                {
+                    "id": 309,
+                    "brandChi": "博宇",
+                    "brandEng": "Boyu",
+                    "brandName": "博宇",
+                    "brandOther": "博宇医疗"
+                },
+                {
+                    "id": 313,
+                    "brandChi": "常熟市医疗器械厂",
+                    "brandEng": "",
+                    "brandName": "常熟市医疗器械厂",
+                    "brandOther": "无"
+                },
+                {
+                    "id": 320,
+                    "brandChi": "驰马特",
+                    "brandEng": "Smart",
+                    "brandName": "驰马特",
+                    "brandOther": ""
+                },
+                {
+                    "id": 334,
+                    "brandChi": "德海尔",
+                    "brandEng": "DHRM",
+                    "brandName": "德海尔",
+                    "brandOther": ""
+                },
+                {
+                    "id": 409,
+                    "brandChi": "虎丘",
+                    "brandEng": "Huqiu/Hu.q",
+                    "brandName": "虎丘",
+                    "brandOther": "苏州虎丘照相器材厂"
+                },
+                {
+                    "id": 410,
+                    "brandChi": "华东电子",
+                    "brandEng": "Huadong",
+                    "brandName": "华东电子",
+                    "brandOther": "华东电子管厂"
+                },
+                {
+                    "id": 354,
+                    "brandChi": "东芝",
+                    "brandEng": "Toshiba ",
+                    "brandName": "东芝",
+                    "brandOther": ""
+                },
+                {
+                    "id": 442,
+                    "brandChi": "惠尔",
+                    "brandEng": "Whale",
+                    "brandName": "惠尔",
+                    "brandOther": ""
+                }
+            ],
+            "usedBrands": [
+                {
+                    "id": 359,
+                    "brandChi": "飞利浦",
+                    "brandEng": "Philips",
+                    "brandName": "飞利浦",
+                    "brandOther": ""
+                },
+                {
+                    "id": 657,
+                    "brandChi": "西门子",
+                    "brandEng": "Siemens",
+                    "brandName": "西门子",
+                    "brandOther": ""
+                },
+                {
+                    "id": 51,
+                    "brandChi": "通用电气",
+                    "brandEng": "GE",
+                    "brandName": "GE",
+                    "brandOther": "GE|GE_healthcare"
+                },
+                {
+                    "id": 461,
+                    "brandChi": "佳能",
+                    "brandEng": "Canon",
+                    "brandName": "佳能",
+                    "brandOther": "Electronic Optical System"
+                },
+                {
+                    "id": 329,
+                    "brandChi": "岛津",
+                    "brandEng": "SHIMADZU ",
+                    "brandName": "岛津",
+                    "brandOther": ""
+                }
+            ]
+        }
+    ],
+    "status": {
+        "message": "SUCCESS",
+        "systemTime": "2018-04-09 10:14:24.335",
+        "code": 200
+    }
+}

@@ -1,0 +1,1539 @@
+{
+    "result": [
+        {
+            "id": 249,
+            "wtType": "TEXT",
+            "items": [
+                {
+                    "wtiValueLimit": "NUMBER",
+                    "id": 937,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 1
+                }
+            ],
+            "ismust": 1,
+            "normName": "产品质量",
+            "wtName": "设备数量",
+            "wtCode": 1
+        },
+        {
+            "id": 250,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 938,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 939,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 940,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 941,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 942,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "产品质量",
+            "wtName": "对产品可靠性的满意度",
+            "wtCode": 2
+        },
+        {
+            "id": 251,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 943,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 944,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 945,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 946,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 947,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "产品质量",
+            "wtName": "对产品易用性的满意度",
+            "wtCode": 3
+        },
+        {
+            "id": 252,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 948,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 949,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 950,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 951,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 952,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "产品质量",
+            "wtName": "对基本维修资料（维修手册、维修图纸、电路图、操作手册、技术参数、专用维修工具等）开放程度的满意度",
+            "wtCode": 4
+        },
+        {
+            "id": 254,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 958,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 959,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 960,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 961,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 962,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "维修质量",
+            "wtName": "对工程师维修水平的满意度",
+            "wtCode": 5
+        },
+        {
+            "id": 255,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 963,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 964,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 965,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 966,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 967,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "维修质量",
+            "wtName": "对维修后返修情况的满意度",
+            "wtCode": 6
+        },
+        {
+            "id": 256,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 968,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 969,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 970,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 971,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 972,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "维修质量",
+            "wtName": "对维修/保养后，企业提供的维保记录和检测报告的满意度（是否详细准确）",
+            "wtCode": 7
+        },
+        {
+            "id": 257,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 973,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 974,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 975,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 976,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 977,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "维修质量",
+            "wtName": "对维修后厂家提供的设备检定或检测服务的满意度",
+            "wtCode": 8
+        },
+        {
+            "id": 258,
+            "wtType": "RADIO",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 978,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "A",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "是",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 979,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "B",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "否",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "维修质量",
+            "wtName": "保修期内是否定期按手册要求提供维护保养",
+            "wtCode": 9
+        },
+        {
+            "id": 259,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 980,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 981,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 982,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 983,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 984,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "价格",
+            "wtName": "对厂家工程师上门维修费用的满意度",
+            "wtCode": 10
+        },
+        {
+            "id": 260,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 985,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 986,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 987,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 988,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 989,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "价格",
+            "wtName": "对配件价格的满意度",
+            "wtCode": 11
+        },
+        {
+            "id": 261,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 990,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 991,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 992,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 993,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 994,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "价格",
+            "wtName": "对保修合同价格的满意度",
+            "wtCode": 12
+        },
+        {
+            "id": 262,
+            "wtType": "RADIO",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 995,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "A",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "先修后付款",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 996,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "B",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "先付款后修",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "价格",
+            "wtName": "维修付款方式",
+            "wtCode": 13
+        },
+        {
+            "id": 263,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 997,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 998,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 999,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1000,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1001,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "效率",
+            "wtName": "对厂家履行合同规定的设备到货速度的满意度",
+            "wtCode": 14
+        },
+        {
+            "id": 265,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1007,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1008,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1009,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1010,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1011,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "效率",
+            "wtName": "对配件到货速度的满意度",
+            "wtCode": 15
+        },
+        {
+            "id": 266,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1012,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1013,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1014,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1015,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1016,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "效率",
+            "wtName": "对厂家工程师维修响应、到达现场、修复速度的满意度",
+            "wtCode": 16
+        },
+        {
+            "id": 267,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1017,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1018,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1019,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1020,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1021,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "培训",
+            "wtName": "对设备科人员提供无附加条件的维修培训的满意度",
+            "wtCode": 17
+        },
+        {
+            "id": 268,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1024,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1025,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1026,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1022,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1023,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "培训",
+            "wtName": "对临床使用培训的满意度",
+            "wtCode": 18
+        },
+        {
+            "id": 269,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1027,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1028,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1029,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1030,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1031,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "培训",
+            "wtName": "对合同规定的培训条款履约情况的满意度",
+            "wtCode": 19
+        },
+        {
+            "id": 270,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1032,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1033,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1034,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1035,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1036,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "服务态度",
+            "wtName": "对厂家工程师服务态度的满意度",
+            "wtCode": 20
+        },
+        {
+            "id": 271,
+            "wtType": "RADIO",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1037,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "A",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "是",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1038,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "B",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "否",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "服务态度",
+            "wtName": "周末节假日工程师是否提供上门维修服务？",
+            "wtCode": 21
+        },
+        {
+            "id": 273,
+            "wtType": "RADIO",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1041,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "A",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "是",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 2588,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "B",
+                    "wtiValueWidth": 3,
+                    "wtiTextFront": "否",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "其他",
+            "wtName": "该类设备是否对医院开放维修密码？",
+            "wtCode": 22
+        },
+        {
+            "id": 275,
+            "wtType": "STAR",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1044,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "A",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1045,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1046,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1047,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1048,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "其他",
+            "wtName": "您对该品牌设备的推荐程度",
+            "wtCode": 23
+        },
+        {
+            "id": 276,
+            "wtType": "RADIO",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1049,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "A",
+                    "wtiValueWidth": 8,
+                    "wtiTextFront": "是",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 1
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1050,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "B",
+                    "wtiValueWidth": 8,
+                    "wtiTextFront": "否",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 1
+                }
+            ],
+            "ismust": 1,
+            "normName": "其他",
+            "wtName": "您是否愿意再次购买使用该品牌设备？原因____",
+            "wtCode": 24
+        },
+        {
+            "id": 277,
+            "wtType": "TEXT",
+            "items": [
+                {
+                    "wtiValueLimit": "NUMBER",
+                    "id": 1051,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 1
+                }
+            ],
+            "ismust": 1,
+            "normName": "其他",
+            "wtName": "1年内，该品牌设备的总故障次数 （总故障次数是指报修的故障次数，与是否产生维修费用无关）",
+            "wtCode": 25
+        },
+        {
+            "id": 278,
+            "wtType": "RADIO",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 2637,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "A",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "是",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                },
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 2638,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "B",
+                    "wtiValueWidth": 3,
+                    "wtiTextFront": "否",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 0
+                }
+            ],
+            "ismust": 1,
+            "normName": "其他",
+            "wtName": "贵院该类设备是否根据约定（合同）按时支付维修费用",
+            "wtCode": 26
+        },
+        {
+            "id": 279,
+            "wtType": "TEXTAREA",
+            "items": [
+                {
+                    "wtiValueLimit": "OFF",
+                    "id": 1053,
+                    "wtiValueAfter": "",
+                    "wtiValueIsmust": 0,
+                    "wtiCode": "",
+                    "wtiValueWidth": 12,
+                    "wtiTextFront": "",
+                    "wtiTextAfter": "",
+                    "wtiValueLength": 20,
+                    "wtiValueIsshow": 1
+                }
+            ],
+            "ismust": 0,
+            "normName": "其他",
+            "wtName": "您最想了解有关医疗设备的哪方面数据",
+            "wtCode": 27
+        }
+    ],
+    "status": {
+        "message": "SUCCESS",
+        "systemTime": "2018-04-08 16:47:43.081",
+        "code": 200
+    }
+}
