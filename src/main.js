@@ -7,7 +7,7 @@ import reset from '@/assets/style/reset.css'
 import touch from 'vue-directive-touch';
 import Mint from 'mint-ui';
 import 'mint-ui/lib/style.css';
-
+import store from './store'
 
 Vue.config.productionTip = false
 Vue
@@ -21,6 +21,7 @@ let ind = 1;
 const vm = new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>',
   beforeCreate:function(){

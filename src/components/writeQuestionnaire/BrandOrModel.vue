@@ -1,16 +1,16 @@
 <template>
   <div>
     <ul>
-      <li v-for="item in brands" :class="$style.listItem">
+      <li v-for="item in this.$store.state.brands" :class="$style.listItem">
         <div :class="$style.listBrandName">
-          <span :class="$style.brandName">{{item.brandName}}</span>
+          <span :class="$style.brandName">{{item.name}}</span>
           <p>
             <button v-touch:tap="rmBrand(item)">删除</button>
-            <button v-touch:tap="reviseBrand(item)">更改品牌</button>
+            <button v-touch:tap="modifyBrand(item)">更改品牌</button>
           </p>
         </div>
         <div :class="$style.listRight">
-
+          添加型号
         </div>
       </li>
     </ul>
@@ -20,21 +20,21 @@
 <script>
 
 export default {
-  props:['brands'],
-  data() {
-    return {
-      key: 'value'
-    }
-  },
   methods:{
     rmBrand(item){
       return ()=>{
-        this.$emit('rmBrand',item,'REMOVE')
+        this.$store.commit('rmbrand', item)
       }
     },
-    reviseBrand(item){
+    modifyBrand(item){
       return ()=>{
-        this.$emit('reviseBrand',item,'CHANGE')
+        for (let i=0;i<this.$store.state.brands.length;i++){
+          const el = this.$store.state.brands[i]
+          if (el.name == item.name){
+            this.$store.commit('changeindex',i)
+            this.$router.push({name:'BrandList', params: { 'ismodify': true }})
+          }
+        }
       }
     }
   }
@@ -88,6 +88,11 @@ export default {
 .listRight
  width 100%
  height 50%
+ font-size 12px
+ color #999
+ display flex
+ align-items center
+ justify-content center
  p
   width 100%
   display flex

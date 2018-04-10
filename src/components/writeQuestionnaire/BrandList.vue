@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hheader :cname="title"></Hheader>
-    <div v-if="isshow">
+    <div>
       <ul>
         <li :class="$style.listItem" v-for="item in list" :key="item.id" v-touch:tap="selectBrand(item)">{{ item.brandName }}</li>
       </ul>
@@ -13,39 +13,36 @@
 import Hheader from '@/components/core/Hheader'
 import brandsData from '@/assets/data/brand.json'
 export default {
-  props:['show','brandAry','tapState','oldChangeBrand'],
-  watch:{
-    show:function(newShow,oldShow){
-      this.isshow = newShow;
-    }
-  },
-  created(){
-  },
   data() {
     return {
       title: '添加品牌',
-      isshow:this.show,
-      list:brandsData.result[0].allBrands
+      list:brandsData.result[0].allBrands,
+      ismodify:""
+    }
+  },
+  created(){
+    // 用于区分是添加品牌和更改品牌，添加为false,更改为true
+    this.ismodify = !!this.$route.params.ismodify;
+  },
+  methods:{
+    selectBrand(item){
+      return ()=>{
+        const brandData = {
+          id:item.id||-1,
+          name:item.brandName,
+          models:[]
+        }
+        if (this.ismodify){
+          this.$store.commit('modifybrand',brandData)
+        }else {
+          this.$store.commit('addbrand',brandData)
+        }
+      }
     }
   },
   components:{
     Hheader
   },
-  methods:{
-    selectBrand(item){
-      return ()=>{
-        for (let i=0;i<this.brandAry.length;i++){
-          const self = this.brandAry[i]
-          if (item.brandName==self.brandName){
-            alert('不能选择重复的品牌！')
-            return;
-          }
-        }
-        this.isshow = false;
-        this.$emit('change',item,this.isshow,this.tapState,this.oldChangeBrand)
-      }
-    }
-  }
 }
 </script>
 
