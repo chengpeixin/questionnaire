@@ -8,18 +8,10 @@
           <div :class="$style.brandname">
             {{wjItem.name}}
           </div>
-          <div v-if="item.wtType=='TEXT'" :class="$style.brandwt">
-            <INPUT v-for="wtitem in item.items" :key="wtitem.id"></INPUT>
-          </div>
-          <div v-if="item.wtType=='STAR'" :class="$style.brandwt">
-            {{item.wtType}}
-          </div>
-          <div v-if="item.wtType=='RADIO'" :class="$style.brandwt">
-            {{item.wtType}}
-          </div>
-          <div v-if="item.wtType=='TEXTAREA'" :class="$style.brandwt">
-            <TEXTAREA></TEXTAREA>
-          </div>
+          <INPUT  v-if="item.wtType=='TEXT'"  v-for="wtitem in item.items" :key="wtitem.id"></INPUT>
+          <START v-if="item.wtType=='STAR'" :info="item"></START>
+          <RADIO v-if="item.wtType=='RADIO'" :info="item"></RADIO>
+          <TEXTAREA  v-if="item.wtType=='TEXTAREA'"></TEXTAREA>
         </div>
       </li>
     </ul>
@@ -32,15 +24,13 @@ import { mapState } from 'vuex'
 import INPUT from '@/components/writeQuestionnaire/INPUT'
 import TEXTAREA from '@/components/writeQuestionnaire/TEXTAREA'
 import RADIO from '@/components/writeQuestionnaire/RADIO'
+import START from '@/components/writeQuestionnaire/START'
 export default {
   name:"questionnaire",
   data() {
     return {
       wjList: WjData.result
     }
-  },
-  created(){
-    console.log(this.wjList)
   },
   methods:{},
   computed:{
@@ -50,7 +40,9 @@ export default {
   },
   components:{
     INPUT,
-    TEXTAREA
+    TEXTAREA,
+    RADIO,
+    START
   }
 }
 </script>
@@ -78,6 +70,4 @@ export default {
   align-items center
   .brandname
    color red
-  .brandwt
-   color blue
 </style>
