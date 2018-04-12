@@ -64,10 +64,10 @@ export default {
  .problem
   border-bottom 1px solid #eeeeee
   box-sizing border-box
-  padding 0 10px
+  padding 5px 10px
   display flex
   justify-content space-between
   align-items center
   .brandname
-   color red
+   color #019ddd
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span v-for="item in info.items" :class="$style.star" v-touch:tap="select()"><img :src="notselect"></span>
+      <img v-for="(item,index) in info.items" :class="$style.star" v-touch:tap="select(index)" :src="starNumber(index)">
   </div>
 </template>
 
@@ -17,25 +17,35 @@ import img2 from '@/assets/img/star2.png'
     data() {
       return {
         notselect: img1,
-        isselect:img2
+        isselect:img2,
+        number:-1
       }
     },
     methods:{
-      select(){
+      select(index){
         return (e)=>{
-          console.log('点击了')
+          this.number = index;
+        }
+      },
+      starNumber(index){
+        if(this.number>=index){
+          return this.isselect;
+        }else {
+          return this.notselect;
         }
       }
+    },
+    computed:{
+
     }
   }
 </script>
 
 <style lang="stylus" module>
 .star
- width 24px
+ width 26px
  height 24px
  display inline-block
- padding 10px 4px
- img
-  width 100%
+ margin 0 2px
+ padding 2px 0px
 </style>
