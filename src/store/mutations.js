@@ -32,6 +32,12 @@ const mutations = {
   },
   changeindex(state,params){
     state.brandIndex = params;
+  },
+  defaultproblem(state, params) {
+    // state.brands[params.index].wentis
+  },
+  addproblem(state,params){
+    state.brands[params.index].wentis.push(params.data)
   }
 }
 

@@ -3,12 +3,9 @@
     <ul :class="$style.fulllist">
       <li v-for="(item,index) in wjList" :key="item.id" :class="$style.list">
         <p :class="$style.listtitle">{{index+1}}．{{item.wtName}}</p>
-        <div :class="$style.problem" v-for="wjItem in brands" :key="wjItem.id">
-
-          <div :class="$style.brandname">
-            {{wjItem.name}}
-          </div>
-          <INPUT  v-if="item.wtType=='TEXT'"  v-for="wtitem in item.items" :key="wtitem.id"></INPUT>
+        <div :class="$style.problem" v-for="(wjItem,brandIndex) in brands" :key="wjItem.id">
+          <div :class="$style.brandname">{{wjItem.name}}</div>
+          <INPUT  v-if="item.wtType=='TEXT'" :info="item" :brandIndex="brandIndex"></INPUT>
           <START v-if="item.wtType=='STAR'" :info="item"></START>
           <RADIO v-if="item.wtType=='RADIO'" :info="item"></RADIO>
           <TEXTAREA  v-if="item.wtType=='TEXTAREA'"></TEXTAREA>
@@ -32,7 +29,6 @@ export default {
       wjList: WjData.result
     }
   },
-  methods:{},
   computed:{
     ...mapState({
       brands:state =>state.brands

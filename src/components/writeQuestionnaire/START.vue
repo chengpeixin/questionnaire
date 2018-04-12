@@ -34,9 +34,6 @@ import img2 from '@/assets/img/star2.png'
           return this.notselect;
         }
       }
-    },
-    computed:{
-
     }
   }
 </script>

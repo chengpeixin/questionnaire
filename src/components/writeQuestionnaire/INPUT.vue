@@ -1,13 +1,34 @@
 <template>
   <div>
-    <input type="text" :class="$style.ipt">
+    <input type="text" v-for="wtitem in info.items" :key="wtitem.id" :class="$style.ipt" v-model="val">
   </div>
 </template>
 
 <script>
-  export default {
+import { mapState } from 'vuex'
 
+export default {
+  props: {
+    info: {
+      type: Object,
+      required:true
+    },
+    brandIndex:{
+      type:Number,
+      required:true
+    }
+  },
+  data() {
+    return {
+      val: ""
+    }
+  },
+  computed:{
+   ...mapState({
+      brands:state =>state.brands
+   })
   }
+}
 </script>
 
 <style lang='stylus' module>

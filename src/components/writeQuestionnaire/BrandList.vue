@@ -12,12 +12,16 @@
 <script>
 import Hheader from '@/components/core/Hheader'
 import brandsData from '@/assets/data/brand.json'
+import { mapState } from 'vuex'
+import WjData from '@/assets/data/Questionnaire.json'
+
 export default {
   data() {
     return {
       title: '添加品牌',
       list:brandsData.result[0].allBrands,
-      ismodify:""
+      ismodify:"",
+      wjList: WjData.result
     }
   },
   created(){
@@ -27,9 +31,17 @@ export default {
   methods:{
     selectBrand(item){
       return ()=>{
+        let wentis = []
+        for (let k=0;k<this.wjList.length;k++){
+          wentis.push({
+            wtId: this.wjList[k].id,
+            wtiValue:""
+          })
+        }
         const brandData = {
           id:item.id||-1,
           name:item.brandName,
+          wentis,
           models:[]
         }
         if (this.ismodify){
@@ -39,6 +51,11 @@ export default {
         }
       }
     }
+  },
+  computed:{
+    ...mapState({
+      brands:state =>state.brands
+    })
   },
   components:{
     Hheader
