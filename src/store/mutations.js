@@ -1,4 +1,7 @@
 const mutations = {
+  defaultbrand(state,params){
+    state.brands.length = [];
+  },
   addbrand(state,params){
     for (let i=0;i<state.brands.length;i++){
       const el = state.brands[i]
@@ -33,11 +36,8 @@ const mutations = {
   changeindex(state,params){
     state.brandIndex = params;
   },
-  defaultproblem(state, params) {
-    // state.brands[params.index].wentis
-  },
-  addproblem(state,params){
-    state.brands[params.index].wentis.push(params.data)
+  addwenti(state,params){
+    state.brands[params.brandIndex].wentis[params.index].wtiValue=params.val;
   }
 }
 

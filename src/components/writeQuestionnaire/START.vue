@@ -12,6 +12,14 @@ import img2 from '@/assets/img/star2.png'
       info:{
         type:Object,
         required:true
+      },
+      brandIndex:{
+        type:Number,
+        required:true
+      },
+      wtindex:{
+        type:Number,
+        required:true
       }
     },
     data() {
@@ -25,6 +33,11 @@ import img2 from '@/assets/img/star2.png'
       select(index){
         return (e)=>{
           this.number = index;
+          this.$store.commit('addwenti',{
+            brandIndex:this.brandIndex,
+            index:this.wtindex,
+            val:index+1
+          })
         }
       },
       starNumber(index){

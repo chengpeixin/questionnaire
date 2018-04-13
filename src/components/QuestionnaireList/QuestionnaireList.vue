@@ -18,13 +18,7 @@ export default {
     }
   },
   created(){
-    Array.prototype.isKey=function(key){
-      if (this.indexOf(key)!=-1){
-        return true;
-      }else {
-        return false;
-      }
-    }
+    this.$store.commit('defaultbrand')
   },
   methods:{},
   components:{

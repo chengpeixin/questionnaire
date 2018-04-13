@@ -5,13 +5,14 @@
         <p :class="$style.listtitle">{{index+1}}．{{item.wtName}}</p>
         <div :class="$style.problem" v-for="(wjItem,brandIndex) in brands" :key="wjItem.id">
           <div :class="$style.brandname">{{wjItem.name}}</div>
-          <INPUT  v-if="item.wtType=='TEXT'" :info="item" :brandIndex="brandIndex"></INPUT>
-          <START v-if="item.wtType=='STAR'" :info="item"></START>
-          <RADIO v-if="item.wtType=='RADIO'" :info="item"></RADIO>
-          <TEXTAREA  v-if="item.wtType=='TEXTAREA'"></TEXTAREA>
+          <INPUT  v-if="item.wtType=='TEXT'" :info="item" :brandIndex="brandIndex" :wtindex="index"></INPUT>
+          <START v-if="item.wtType=='STAR'" :info="item" :brandIndex="brandIndex" :wtindex="index"></START>
+          <RADIO v-if="item.wtType=='RADIO'" :info="item" :brandIndex="brandIndex" :wtindex="index"></RADIO>
+          <TEXTAREA  v-if="item.wtType=='TEXTAREA'" :info="item" :brandIndex="brandIndex" :wtindex="index"></TEXTAREA>
         </div>
       </li>
     </ul>
+    <Submit></Submit>
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import INPUT from '@/components/writeQuestionnaire/INPUT'
 import TEXTAREA from '@/components/writeQuestionnaire/TEXTAREA'
 import RADIO from '@/components/writeQuestionnaire/RADIO'
 import START from '@/components/writeQuestionnaire/START'
+import Submit from '@/components/writeQuestionnaire/Submit'
 export default {
   name:"questionnaire",
   data() {
@@ -38,7 +40,8 @@ export default {
     INPUT,
     TEXTAREA,
     RADIO,
-    START
+    START,
+    Submit
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div :class="$style.radiofull">
-    <mt-radio :options="radios"></mt-radio>
+    <mt-radio :options="radios" @change="check"></mt-radio>
   </div>
 </template>
 
@@ -16,6 +16,14 @@ export default {
     info:{
       type:Object,
       required:true
+    },
+    brandIndex:{
+      type:Number,
+      required:true
+    },
+    wtindex:{
+      type:Number,
+      required:true
     }
   },
   created(){
@@ -24,6 +32,15 @@ export default {
       this.radios.push({
         label: `${el.wtiCode}．${el.wtiTextFront}`,
         value: `${el.id}`,
+      })
+    }
+  },
+  methods:{
+    check(id){
+      this.$store.commit('addwenti',{
+        brandIndex:this.brandIndex,
+        index:this.wtindex,
+        val:id
       })
     }
   }

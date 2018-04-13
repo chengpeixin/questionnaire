@@ -1,11 +1,10 @@
 <template>
   <div>
-    <input type="text" v-for="wtitem in info.items" :key="wtitem.id" :class="$style.ipt" v-model="val">
+    <input type="text" v-for="wtitem in info.items" :key="wtitem.id" :class="$style.ipt" v-model="val" v-on:input="setWjdata(wtitem)">
   </div>
 </template>
 
 <script>
-import { mapState } from 'vuex'
 
 export default {
   props: {
@@ -16,6 +15,10 @@ export default {
     brandIndex:{
       type:Number,
       required:true
+    },
+    wtindex:{
+      type:Number,
+      required:true
     }
   },
   data() {
@@ -23,10 +26,14 @@ export default {
       val: ""
     }
   },
-  computed:{
-   ...mapState({
-      brands:state =>state.brands
-   })
+  methods:{
+    setWjdata(data){
+      this.$store.commit('addwenti',{
+        brandIndex:this.brandIndex,
+        index:this.wtindex,
+        val:this.val
+      })
+    }
   }
 }
 </script>
