@@ -16,15 +16,18 @@ export default {
         const wentis = brand_item.wentis;
         if (brand_item.models.length==0){
           alert(`您第${++i}个品牌没添加型号，请添加型号`);
-          // return;
+          return;
         }
         for (let k=0;k<wentis.length;k++){
           const wenti_item = wentis[k]
           if (wenti_item.wtiValue==""){
             alert(`您第${++k}题未填写`);
+            return;
           }
         }
       }
+      // 如果进行到这里代表用户已经填写完毕,发送请求
+
     }
   },
   computed:{

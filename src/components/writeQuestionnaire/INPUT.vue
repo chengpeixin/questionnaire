@@ -27,7 +27,7 @@ export default {
     }
   },
   methods:{
-    setWjdata(data){
+    setWjdata(){
       this.$store.commit('addwenti',{
         brandIndex:this.brandIndex,
         index:this.wtindex,

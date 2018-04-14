@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import QuestionnaireList from '@/components/QuestionnaireList/QuestionnaireList'
 import FillQuestionnaire from '@/components/writeQuestionnaire/FillQuestionnaire'
 import BrandList from '@/components/writeQuestionnaire/BrandList'
+import Viewres from '@/components/Viewres/Viewres'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path:'/BrandList',
       name:'BrandList',
       component: BrandList
-    }
+    },
+    {
+      path: '/Viewres',
+      name: 'Viewres',
+      component: Viewres
+    },
   ]
 })
