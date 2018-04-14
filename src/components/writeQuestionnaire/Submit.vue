@@ -5,13 +5,34 @@
 </template>
 
 <script>
-  export default {
-    methods:{
-      submit(){
-        console.log(123)
+import { mapState } from 'vuex'
+
+export default {
+  methods:{
+    submit(){
+      console.log(this.brands)
+      for (let i=0;i<this.brands.length;i++){
+        const brand_item = this.brands[i]
+        const wentis = brand_item.wentis;
+        if (brand_item.models.length==0){
+          alert(`您第${++i}个品牌没添加型号，请添加型号`);
+          // return;
+        }
+        for (let k=0;k<wentis.length;k++){
+          const wenti_item = wentis[k]
+          if (wenti_item.wtiValue==""){
+            alert(`您第${++k}题未填写`);
+          }
+        }
       }
     }
+  },
+  computed:{
+    ...mapState({
+      brands:state=>state.brands
+    })
   }
+}
 </script>
 
 <style lang="stylus" module>
