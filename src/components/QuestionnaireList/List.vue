@@ -43,7 +43,6 @@ export default {
         }else {
           this.$router.push({path:'/Viewres'})
         }
-        console.log(data)
       }
     }
   }
