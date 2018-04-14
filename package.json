@@ -12,6 +12,8 @@
   "dependencies": {
     "cssnano": "^3.10.0",
     "es6-promise": "^4.2.4",
+    "koa": "^2.5.0",
+    "koa-static": "^4.0.2",
     "mint-ui": "^2.2.13",
     "normalize.css": "^8.0.0",
     "postcss-aspect-ratio-mini": "^0.0.2",
