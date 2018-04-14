@@ -4,11 +4,11 @@
       <li :class="$style.notload" v-for="item in skeleton"></li>
     </ul>
     <ul :class="$style.full">
-      <router-link :class="$style.listItem" v-for="(item,index) in dataList" :key="item.id" :to="{path:'/FillQuestionnaire',params:{ userId: 123 },query:{id:item.id}}">
+      <li :class="$style.listItem" v-for="(item,index) in dataList" :key="item.id" v-touch:tap="tapgo(item)" >
         <span :class="$style.wjname">{{item.wjName}}</span>
         <span v-if="item.examWjid==0" :class="$style.toWrite">填写报告</span>
         <span v-else :class="$style.lock">查看问卷</span>
-      </router-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -35,6 +35,16 @@ export default {
     ajax_load:function(){
       this.skeleton = 0;
       this.dataList = data.result
+    },
+    tapgo(data){
+      return ()=>{
+        if (data.examWjid==0){
+          this.$router.push({path:'/FillQuestionnaire',params:{ userId: 123 },query:{id:data.id}})
+        }else {
+          this.$router.push({path:'/Viewres'})
+        }
+        console.log(data)
+      }
     }
   }
 }

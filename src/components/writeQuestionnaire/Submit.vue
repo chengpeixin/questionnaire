@@ -10,13 +10,12 @@ import { mapState } from 'vuex'
 export default {
   methods:{
     submit(){
-      console.log(this.brands)
       for (let i=0;i<this.brands.length;i++){
         const brand_item = this.brands[i]
         const wentis = brand_item.wentis;
         if (brand_item.models.length==0){
           alert(`您第${++i}个品牌没添加型号，请添加型号`);
-          return;
+          // return;
         }
         for (let k=0;k<wentis.length;k++){
           const wenti_item = wentis[k]
@@ -27,7 +26,7 @@ export default {
         }
       }
       // 如果进行到这里代表用户已经填写完毕,发送请求
-
+      this.$router.replace({   path: '/Viewres'})
     }
   },
   computed:{

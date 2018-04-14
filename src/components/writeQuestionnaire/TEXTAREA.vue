@@ -25,9 +25,6 @@ export default {
       required:true
     }
   },
-  created(){
-    // console.log(this.info)
-  },
   methods:{
     writewj(){
       this.$store.commit('addwenti',{
