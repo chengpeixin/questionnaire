@@ -8,12 +8,17 @@ import touch from 'vue-directive-touch';
 import Mint from 'mint-ui';
 import 'mint-ui/lib/style.css';
 import store from './store'
+import Echarts from 'echarts'
+import F2 from '@antv/f2'
 
 Vue.config.productionTip = false
 Vue
  .use(reset)
  .use(touch)
  .use(Mint);
+
+Vue.prototype.$echarts = Echarts;
+Vue.prototype.$f2 = F2;
 
 
 let ind = 1;
