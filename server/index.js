@@ -1,12 +1,19 @@
 var koa = require('koa');
 var app = new koa();
 const serve = require("koa-static");
-const router = require('./router')
+const router = require('koa-router')
 const {
-    connect,
+  connect,
   initSchema
 } = require('./database/init')
-app.use(serve(__dirname + "/dist/", { extensions: ['html'] }));
+const routes = require('./routes/route')
+const port = 8070;
+// 获取命令行参数
+const arguments = process.argv;
+
+app
+  .use(serve(__dirname + "/dist/", { extensions: ['html'] }))
+  .use(routes.routes())
 
 
 ;(async ()=>{
@@ -15,4 +22,4 @@ app.use(serve(__dirname + "/dist/", { extensions: ['html'] }));
 })()
 
 
-app.listen(8070);
+app.listen(port);
