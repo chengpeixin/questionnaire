@@ -1,10 +1,23 @@
 const mongoose = require('mongoose')
+const Question = mongoose.model('QuestionnaireList')
 class Questionnaire{
   static async getbrand(ctx){
-    //ctx.body = '666'
-  },
+  }
   static async getproblem(ctx){
     //返回操作
+    const result = await Question.find({})
+    const data = []
+    result.forEach(item => {
+      data.push({
+        id: item.id,
+        wjName: item.wjName,
+        examWjid: item.examWjid,
+        wjCode: item.wjCode
+      })
+    })
+    ctx.body = {
+      data: data
+    }
   }
 }
 

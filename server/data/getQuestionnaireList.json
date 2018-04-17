@@ -1,0 +1,135 @@
+{
+    "result": [
+        {
+            "id": 1,
+            "wjName": "CT类",
+            "examWjid": 540,
+            "wjCode": 1
+        },
+        {
+            "id": 29,
+            "wjName": "磁共振MRI类",
+            "examWjid": 539,
+            "wjCode": 2
+        },
+        {
+            "id": 28,
+            "wjName": "血管造影机DSA类",
+            "examWjid": 0,
+            "wjCode": 3
+        },
+        {
+            "id": 27,
+            "wjName": "X射线类",
+            "examWjid": 0,
+            "wjCode": 4
+        },
+        {
+            "id": 26,
+            "wjName": "超声影像类",
+            "examWjid": 0,
+            "wjCode": 5
+        },
+        {
+            "id": 25,
+            "wjName": "直线加速器类",
+            "examWjid": 0,
+            "wjCode": 6
+        },
+        {
+            "id": 30,
+            "wjName": "核医学类",
+            "examWjid": 0,
+            "wjCode": 7
+        },
+        {
+            "id": 9,
+            "wjName": "监护类",
+            "examWjid": 0,
+            "wjCode": 8
+        },
+        {
+            "id": 37,
+            "wjName": "呼吸类",
+            "examWjid": 0,
+            "wjCode": 9
+        },
+        {
+            "id": 36,
+            "wjName": "输注泵类",
+            "examWjid": 0,
+            "wjCode": 10
+        },
+        {
+            "id": 35,
+            "wjName": "血液净化类",
+            "examWjid": 0,
+            "wjCode": 11
+        },
+        {
+            "id": 34,
+            "wjName": "软式内窥镜类",
+            "examWjid": 0,
+            "wjCode": 12
+        },
+        {
+            "id": 33,
+            "wjName": "硬式内窥镜类",
+            "examWjid": 0,
+            "wjCode": 13
+        },
+        {
+            "id": 39,
+            "wjName": "麻醉类",
+            "examWjid": 0,
+            "wjCode": 14
+        },
+        {
+            "id": 41,
+            "wjName": "电刀、超声刀等医用刀类",
+            "examWjid": 0,
+            "wjCode": 15
+        },
+        {
+            "id": 42,
+            "wjName": "灯床塔等手术室设备类",
+            "examWjid": 0,
+            "wjCode": 16
+        },
+        {
+            "id": 43,
+            "wjName": "医用激光类",
+            "examWjid": 0,
+            "wjCode": 17
+        },
+        {
+            "id": 44,
+            "wjName": "供应室及手术室消毒类",
+            "examWjid": 0,
+            "wjCode": 18
+        },
+        {
+            "id": 40,
+            "wjName": "检验室设备类",
+            "examWjid": 0,
+            "wjCode": 19
+        },
+        {
+            "id": 32,
+            "wjName": "病理类",
+            "examWjid": 0,
+            "wjCode": 20
+        },
+        {
+            "id": 38,
+            "wjName": "手术显微镜类",
+            "examWjid": 0,
+            "wjCode": 21
+        }
+    ],
+    "status": {
+        "message": "SUCCESS",
+        "systemTime": "2018-04-08 09:30:44.197",
+        "code": 200
+    }
+}

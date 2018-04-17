@@ -12,6 +12,14 @@ const QuestionnaireList_schema = new Schema({
   wjCode:{
     unique: true,
     type:String
+  },
+  brand: {
+    default:"null",
+    type:Object
+  },
+  questionnaire:{
+    default:"null",
+    type:Object
   }
 })
 QuestionnaireList_schema.pre('save',function(next){
