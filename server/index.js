@@ -1,6 +1,7 @@
 var koa = require('koa');
 var app = new koa();
 const serve = require("koa-static");
+const cors = require('koa2-cors')
 const router = require('koa-router')
 const mongoose = require('mongoose')
 
@@ -15,5 +16,12 @@ const arguments = process.argv;
 
 app
   .use(serve(__dirname + "/dist/", { extensions: ['html'] }))
+  .use(core({
+    exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],
+    maxAge: 5,
+    credentials: true,
+    allowMethods: ['GET', 'POST', 'DELETE'],
+    allowHeaders: ['Content-Type', 'Authorization', 'Accept']
+  }))
   .use(routes.routes())
 app.listen(port);

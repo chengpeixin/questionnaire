@@ -3,11 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
+import axios from 'axios'
 import reset from '@/assets/style/reset.css'
 import touch from 'vue-directive-touch';
 import Mint from 'mint-ui';
 import 'mint-ui/lib/style.css';
-import store from './store'
 import F2 from '@antv/f2'
 
 Vue.config.productionTip = false
@@ -15,9 +16,10 @@ Vue
  .use(reset)
  .use(touch)
  .use(Mint);
-
+// console.log(axios)
 Vue.prototype.$f2 = F2;
-
+Vue.prototype.$http = axios;
+console.log(Vue)
 
 let ind = 1;
 /* eslint-disable no-new */

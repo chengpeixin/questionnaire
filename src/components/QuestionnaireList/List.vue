@@ -26,6 +26,9 @@ export default {
   },
   created(){
     const that = this
+    this.$http.get('http://xinpeicheng.com:8070/api/getproblem').then(res=>{
+      console.log(res)
+    })
     // 模拟ajax加载
     // setTimeout(function() {
       that.ajax_load()
