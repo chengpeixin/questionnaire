@@ -16,7 +16,7 @@ const arguments = process.argv;
 
 app
   .use(serve(__dirname + "/dist/", { extensions: ['html'] }))
-  .use(core({
+  .use(cors({
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],
     allowHeaders: ['Content-Type', 'Authorization', 'Accept']
   }))
