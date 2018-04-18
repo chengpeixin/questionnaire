@@ -18,8 +18,6 @@ app
   .use(serve(__dirname + "/dist/", { extensions: ['html'] }))
   .use(core({
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],
-    maxAge: 5,
-    credentials: true,
     allowHeaders: ['Content-Type', 'Authorization', 'Accept']
   }))
   .use(routes.routes())

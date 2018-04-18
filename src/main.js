@@ -16,10 +16,8 @@ Vue
  .use(reset)
  .use(touch)
  .use(Mint);
-// console.log(axios)
 Vue.prototype.$f2 = F2;
 Vue.prototype.$http = axios;
-console.log(Vue)
 
 let ind = 1;
 /* eslint-disable no-new */
