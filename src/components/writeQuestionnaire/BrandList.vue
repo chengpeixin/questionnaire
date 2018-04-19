@@ -50,6 +50,9 @@ export default {
           this.$store.commit('addbrand',brandData)
         }
       }
+    },
+    getWjdata(){
+      // this.$http(
     }
   },
   computed:{

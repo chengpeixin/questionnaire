@@ -1,7 +1,11 @@
 const mongoose = require('mongoose')
 const Question = mongoose.model('QuestionnaireList')
+const URL = require('url');
 class Questionnaire{
   static async getbrand(ctx){
+    const url = ctx.request.url,
+    params = URL.parse(url);
+    console.log(params.query)
   }
   static async getproblem(ctx){
     //返回操作

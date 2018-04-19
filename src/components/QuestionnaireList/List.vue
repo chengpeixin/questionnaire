@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import data from '@/assets/data/getQuestionnaireList'
+// import data from '@/assets/data/getQuestionnaireList'
 
 export default {
   data() {
@@ -26,20 +26,27 @@ export default {
   },
   created(){
     const that = this
-    this.$http.get('http://xinpeicheng.com:8070/api/getproblem').then(res=>{
-      console.log(res)
-    }).catch(err=>{
-      console.log(err)
+    // this.$http.get('/api/getproblem').then(res=>{
+    //   try {
+    //     if (res.status!=200&&res.status.statusText!="OK"){
+    //       alert('接口获取错误')
+    //       return;
+    //     }
+    //   that.ajax_load()
+    //   this.dataList = res.data.data;
+    //   } catch (error) {
+    //     alert(error)
+    //   }
+    // }).catch(err=>{
+    //   alert(err)
+    // })
+    this.$http.post('http://localhost:8070/api/getbrand?id=%E8%BE%9B%E5%9F%B9%E9%93%96').then(res=>{
+      console.log('a')
     })
-    // 模拟ajax加载
-    // setTimeout(function() {
-      that.ajax_load()
-    // }, 2000);
   },
   methods:{
     ajax_load:function(){
       this.skeleton = 0;
-      this.dataList = data.result
     },
     tapgo(data){
       return ()=>{

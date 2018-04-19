@@ -12,11 +12,12 @@ import 'mint-ui/lib/style.css';
 import F2 from '@antv/f2'
 
 Vue.config.productionTip = false
+axios.defaults.baseURL = 'http://xinpeicheng.com:8070';
 Vue
  .use(reset)
  .use(touch)
  .use(Mint);
-Vue.prototype.$f2 = F2;
+ Vue.prototype.$f2 = F2;
 Vue.prototype.$http = axios;
 
 let ind = 1;
