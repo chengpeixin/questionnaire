@@ -11,7 +11,6 @@
 
 <script>
 import Hheader from '@/components/core/Hheader'
-// import brandsData from '@/assets/data/brand.json'
 import { mapState } from 'vuex'
 import WjData from '@/assets/data/Questionnaire.json'
 
@@ -19,7 +18,7 @@ export default {
   data() {
     return {
       title: '添加品牌',
-      list:brandsData.result[0].allBrands,
+      list:[],
       ismodify:"",
       wjList: WjData.result,
       qutionId:this.$route.params.qutionId
@@ -55,7 +54,7 @@ export default {
     },
     getBrand(){
       const that = this
-      this.$http.post('/api/getbrand',{id:this.qutionId}).then(res=>{
+      this.$http.post('/api/getbrand',{id:this.$route.params.qutionId}).then(res=>{
         that.list = res.data.data;
       }).catch(err=>{
         alert('获取参数错误，请重试')

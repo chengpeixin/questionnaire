@@ -25,7 +25,7 @@ export default {
   },
   created(){
     const that = this
-    this.$http.get('/api/getproblem').then(res=>{
+    this.$http.post('/api/getproblem').then(res=>{
       try {
         if (res.status!=200&&res.status.statusText!="OK"){
           alert('接口获取错误,请重试')
