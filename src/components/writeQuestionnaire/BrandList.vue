@@ -11,7 +11,7 @@
 
 <script>
 import Hheader from '@/components/core/Hheader'
-import brandsData from '@/assets/data/brand.json'
+// import brandsData from '@/assets/data/brand.json'
 import { mapState } from 'vuex'
 import WjData from '@/assets/data/Questionnaire.json'
 
@@ -56,7 +56,7 @@ export default {
     getBrand(){
       const that = this
       this.$http.post('/api/getbrand',{id:this.qutionId}).then(res=>{
-        this.list = res.data.data;
+        that.list = res.data.data;
       }).catch(err=>{
         alert('获取参数错误，请重试')
         alert(err)

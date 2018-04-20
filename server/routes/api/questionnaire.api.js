@@ -4,11 +4,18 @@ const URL = require('url');
 class Questionnaire{
   static async getbrand(ctx){
     const params = ctx.request.body;
+    if (!params.id){
+      ctx.body = {
+        data:['无数据']
+      }
+      return;
+    }
     const result = await Question.findOne({
       id:params.id
     })
+    console.log(params.id)
+    console.log(result)
     const data = await result.brand;
-    console.log(data)
     ctx.body = {
       data
     }
