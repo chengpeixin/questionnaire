@@ -21,12 +21,14 @@ export default {
       title: '添加品牌',
       list:brandsData.result[0].allBrands,
       ismodify:"",
-      wjList: WjData.result
+      wjList: WjData.result,
+      qutionId:this.$route.params.qutionId
     }
   },
   created(){
     // 用于区分是添加品牌和更改品牌，添加为false,更改为true
     this.ismodify = !!this.$route.params.ismodify;
+    this.getBrand()
   },
   methods:{
     selectBrand(item){
@@ -51,8 +53,14 @@ export default {
         }
       }
     },
-    getWjdata(){
-      // this.$http(
+    getBrand(){
+      const that = this
+      this.$http.post('/api/getbrand',{id:this.qutionId}).then(res=>{
+        this.list = res.data.data;
+      }).catch(err=>{
+        alert('获取参数错误，请重试')
+        alert(err)
+      })
     }
   },
   computed:{

@@ -14,7 +14,6 @@
 </template>
 
 <script>
-// import data from '@/assets/data/getQuestionnaireList'
 
 export default {
   data() {
@@ -26,22 +25,19 @@ export default {
   },
   created(){
     const that = this
-    // this.$http.get('/api/getproblem').then(res=>{
-    //   try {
-    //     if (res.status!=200&&res.status.statusText!="OK"){
-    //       alert('接口获取错误')
-    //       return;
-    //     }
-    //   that.ajax_load()
-    //   this.dataList = res.data.data;
-    //   } catch (error) {
-    //     alert(error)
-    //   }
-    // }).catch(err=>{
-    //   alert(err)
-    // })
-    this.$http.post('http://localhost:8070/api/getbrand?id=%E8%BE%9B%E5%9F%B9%E9%93%96').then(res=>{
-      console.log('a')
+    this.$http.get('/api/getproblem').then(res=>{
+      try {
+        if (res.status!=200&&res.status.statusText!="OK"){
+          alert('接口获取错误,请重试')
+          return;
+        }
+      that.ajax_load()
+      this.dataList = res.data.data;
+      } catch (error) {
+        alert(error)
+      }
+    }).catch(err=>{
+      alert(err)
     })
   },
   methods:{
@@ -51,7 +47,7 @@ export default {
     tapgo(data){
       return ()=>{
         if (data.examWjid==0){
-          this.$router.push({path:'/FillQuestionnaire',params:{ userId: 123 },query:{id:data.id}})
+          this.$router.push({path:'/FillQuestionnaire',params:{ id: data.id },query:{id:data.id}})
         }else {
           this.$router.push({path:'/Viewres'})
         }

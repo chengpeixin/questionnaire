@@ -3,9 +3,15 @@ const Question = mongoose.model('QuestionnaireList')
 const URL = require('url');
 class Questionnaire{
   static async getbrand(ctx){
-    const url = ctx.request.url,
-    params = URL.parse(url);
-    console.log(params.query)
+    const params = ctx.request.body;
+    const result = await Question.findOne({
+      id:params.id
+    })
+    const data = await result.brand;
+    console.log(data)
+    ctx.body = {
+      data
+    }
   }
   static async getproblem(ctx){
     //返回操作
@@ -20,7 +26,7 @@ class Questionnaire{
       })
     })
     ctx.body = {
-      data: data
+      data
     }
   }
 }

@@ -22,13 +22,25 @@ export default {
       title: '填写问卷',
       style:{
         btn:`width:92%;width 92%; margin: 0 auto 10px auto;`
-      }
+      },
+      qutionId:""
     }
   },
   methods:{
     addBrand(){
-      this.$router.push('BrandList')
+      this.$router.push({
+        name:`BrandList`,
+        params:{
+          "qutionId":this.qutionId
+        }
+      })
+    },
+    getQutionId(){
+      this.qutionId = this.$route.query.id;
     }
+  },
+  created(){
+    this.getQutionId()
   },
   components:{
     Hheader,

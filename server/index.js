@@ -3,6 +3,7 @@ var app = new koa();
 const serve = require("koa-static");
 const cors = require('koa2-cors')
 const router = require('koa-router')
+const koaBody = require('koa-body')
 const mongoose = require('mongoose')
 
 require('./database/init').connect()
@@ -20,5 +21,6 @@ app
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],
     allowHeaders: ['Content-Type', 'Authorization', 'Accept']
   }))
+  .use(koaBody({}))
   .use(routes.routes())
 app.listen(port);
