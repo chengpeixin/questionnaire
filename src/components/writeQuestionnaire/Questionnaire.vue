@@ -17,7 +17,7 @@
 </template>
 
 <script>
-// import WjData from '@/assets/data/Questionnaire.json'
+import WjData from '@/assets/data/Questionnaire.json'
 import { mapState } from 'vuex'
 import INPUT from '@/components/writeQuestionnaire/INPUT'
 import TEXTAREA from '@/components/writeQuestionnaire/TEXTAREA'
@@ -28,7 +28,7 @@ export default {
   name:"questionnaire",
   data() {
     return {
-      wjList: []
+      wjList: WjData.result
     }
   },
   created(){
@@ -41,17 +41,17 @@ export default {
   },
   methods:{
     getWts(){
-      const that = this;
-      this.$http.post('http://localhost:8070/api/getwts',{id:"9"}).then(res=>{
-        if (res.status!=200||res.statusText!='OK'){
-          alert('请求失败,请重试')
-          return;
-        }
-        that.wjList = res.data.data;
-      }).catch(err=>{
-        alert('获取参数错误')
-        alert(err)
-      })
+      // const that = this;
+      // this.$http.post('http://localhost:8070/api/getwts',{id:"9"}).then(res=>{
+      //   if (res.status!=200||res.statusText!='OK'){
+      //     alert('请求失败,请重试')
+      //     return;
+      //   }
+      //   that.wjList = res.data.data;
+      // }).catch(err=>{
+      //   alert('获取参数错误')
+      //   alert(err)
+      // })
     }
   },
   components:{

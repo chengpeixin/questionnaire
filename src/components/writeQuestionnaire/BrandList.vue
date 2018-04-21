@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import WjData from '@/assets/data/Questionnaire.json'
+
 import Hheader from '@/components/core/Hheader'
 import { mapState } from 'vuex'
 
@@ -19,7 +21,7 @@ export default {
       title: '添加品牌',
       list:[],
       ismodify:"",
-      wjList: [],
+      wjList: WjData.result,
       qutionId:this.$route.params.qutionId
     }
   },
