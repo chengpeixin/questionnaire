@@ -4,7 +4,6 @@ const URL = require('url');
 class Questionnaire{
   static async getbrand(ctx){
     const params = ctx.request.body;
-    console.log(params)
     if (!params.id){
       ctx.body = {
         data:['无数据']
@@ -14,7 +13,6 @@ class Questionnaire{
     const result = await Question.findOne({
       id:params.id
     })
-    console.log(result)
     const data = await result.brand;
     ctx.body = {
       data
@@ -32,6 +30,27 @@ class Questionnaire{
         wjCode: item.wjCode
       })
     })
+    ctx.body = {
+      data
+    }
+  }
+  static async getwts(ctx){
+    const params = ctx.request.body;
+    if (!params.id) {
+      ctx.body = {
+        data: {
+          status:{
+            code:203,
+            message:"无法获取到id"
+          }
+        }
+      }
+      return;
+    }
+    const result = await Question.findOne({
+      id: params.id
+    })
+    const data = result.questionnaire;
     ctx.body = {
       data
     }
