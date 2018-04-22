@@ -37,10 +37,24 @@ export default {
     },
     getQutionId(){
       this.qutionId = this.$route.query.id;
+    },
+    getwts(){
+     const that = this;
+      this.$http.post('/api/getwts',{id:"9"}).then(res=>{
+        if (res.status!=200||res.statusText!='OK'){
+          alert('请求失败,请重试')
+          return;
+        }
+        that.wjList = res.data.data;
+      }).catch(err=>{
+        alert('获取参数错误')
+        alert(err)
+      })
     }
   },
   created(){
     this.getQutionId()
+    this.getwts();
   },
   components:{
     Hheader,

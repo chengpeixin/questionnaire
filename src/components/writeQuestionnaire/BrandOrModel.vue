@@ -32,7 +32,7 @@ export default {
           const el = this.$store.state.brands[i]
           if (el.name == item.name){
             this.$store.commit('changeindex',i)
-            this.$router.push({name:'BrandList', params: { 'ismodify': true }})
+            this.$router.push({name:'BrandList', params: { 'ismodify': true ,qutionId:this.$route.query.id}})
           }
         }
       }
